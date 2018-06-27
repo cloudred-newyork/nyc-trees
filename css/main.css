@@ -94,11 +94,12 @@ textarea {
    ========================================================================== */
 
 body, html {
-    background: #000;
-    color: white;
+    background: #19181a;
+    color: #f4f4f4;
     margin: 0;
     padding: 0;
-    font-family: lato;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
 
 
@@ -107,7 +108,27 @@ a:visited {color:#ffeb1e; text-decoration:none}  /* visited link */
 a:hover {color:#7570b3; text-decoration:none}  /* mouse over link */
 a:active {color:#7570b3; text-decoration:none}  /* selected link */
 
-
+h1, h2, h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+blockquote {
+    font-size: 2rem;
+    line-height: 2.3rem;
+    position: relative;
+}
+blockquote:before {
+    content: "“";
+    position: absolute;
+    top: 14px;
+    left: -33px;
+    font-size: 4rem;
+}
+.container {
+    width:760px;
+    margin:0 auto;
+}
 #wrapper {
     position: relative;
     height: 100%;
@@ -129,6 +150,11 @@ a:active {color:#7570b3; text-decoration:none}  /* selected link */
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
+#header_links li.twitter-btn {
+    background: none;
+    border:none;
+    margin-top: 5px;
+}
 #header_links li a {
     display: inline-block;
     padding: 6px 20px;
@@ -141,14 +167,22 @@ a:active {color:#7570b3; text-decoration:none}  /* selected link */
     margin: 0;
 }
 #wrapper header h1 {
-    margin: 0;
-    font-size: 38px;
+    font-size: 48px;
+    line-height: 43px;
+    margin: 43px 0 0 0;
 }
-#wrapper header h2 {
+#wrapper h2 {
     margin: 0;
-    font-size: 18px;
-    font-weight: normal;
+    font-size: 24px;
 }
+
+#wrapper h3 {
+    font-size: 24px;
+}
+.double-column {
+    column-count: 2;
+}
+
 
 #viz_wrapper {
     position: relative;
@@ -546,6 +580,8 @@ footer {
     h2,
     h3 {
         page-break-after: avoid;
+        font-family: 'Roboto Condensed', sans-serif;
+
     }
 }
 
@@ -560,7 +596,8 @@ footer {
 
 /* Use this next selector to style things like font-size and line-height: */
 .tooltipster-default .tooltipster-content {
-    font-family: lato, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     font-size: 12px;
     line-height: 14px;
     padding: 8px 10px;
