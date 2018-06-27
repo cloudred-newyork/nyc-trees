@@ -64,19 +64,19 @@
                 <div id="about">
                 <p name="about"><h3>About</h3></p>
                 
-                <p class="double-column">
+                <p>
                     We were curious about the common and no- so-common trees planted in the five boroughs of New York City. We wanted to create a visualization that allow us to quickly evaluate tree distribution.
                 </p>
 
                 <blockquote>We believe that engaging, visual interfaces have the power to make complex datasets more accessible.”</blockquote>
 
-                 <p class="double-column">
+                 <p>
                     While this visualizes trees, which we personally love, as an essential element of any urban city, we see this as an experiment or model to visualize other datasets in an additive/subtractive format. We believe that engaging, visual interfaces have the power to make complex datasets more accessible.
 
 
                 </p>
                 <h3>Insight</h3>
-                  <p class="double-column">Trees in the Bronx and Manhattan seem to be distributed more uniformly compared to the other three boroughs. With a high concentrations of certain trees, there is a risk of a pathogen, insect or environmental stress wiping out a large amount of trees. A sizable percentage of trees have been marked “unknown” in the dataset, making the dataset incomplete.
+                  <p>Trees in the Bronx and Manhattan seem to be distributed more uniformly compared to the other three boroughs. With a high concentrations of certain trees, there is a risk of a pathogen, insect or environmental stress wiping out a large amount of trees. A sizable percentage of trees have been marked “unknown” in the dataset, making the dataset incomplete.
                 </p>
 
 
