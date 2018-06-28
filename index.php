@@ -71,7 +71,7 @@
                 <blockquote>We believe that engaging, visual interfaces have the power to make complex datasets more accessible.”</blockquote>
 
                  <p>
-                    While this visualizes trees, which we personally love, as an essential element of any urban city, we see this as an experiment or model to visualize other datasets in an additive/subtractive format. We believe that engaging, visual interfaces have the power to make complex datasets more accessible.
+                    While this visualizes trees, which we personally love, as an essential element of any urban city, we see this as an experiment or model to visualize other datasets in an additive/subtractive format.
 
 
                 </p>
