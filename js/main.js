@@ -1,3 +1,22 @@
+
+//get year
+var GET = {};
+var query = window.location.search.substring(1).split("&");
+for (var i = 0, max = query.length; i < max; i++)
+{
+    if (query[i] === "") // check for trailing & with no param
+        continue;
+
+    var param = query[i].split("=");
+    GET[decodeURIComponent(param[0])] = decodeURIComponent(param[1] || "");
+}
+//alert(GET.year);
+if (GET.year==undefined || GET.year=="" || GET.year==2005) {
+	year = 2005;
+} else {
+	year = 2015;
+}
+
 var treeViz = (function ($) {
 	var _self = {},
 		redrawTimer,
@@ -80,7 +99,7 @@ var treeViz = (function ($) {
 		}); 
 	}
 	function loadTreeData() {
-		var trees = $.getJSON( "data/common.json", function(data) {
+		var trees = $.getJSON( "data-"+year+"/common.json", function(data) {
 				treeData = data;
 				initTrees();
 				resizeCanvas();
@@ -88,7 +107,7 @@ var treeViz = (function ($) {
 	}
 
 	function loadBoroughData() {
-		var temp = $.getJSON( "data/boroughs.json", function(data) {
+		var temp = $.getJSON( "data-"+year+"/boroughs.json", function(data) {
 				boroughs = data;
 				initBars();
 				loadTreeData();

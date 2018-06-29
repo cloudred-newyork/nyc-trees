@@ -34,7 +34,8 @@
               <header>
                     <h1>An Interactive Visualization of NYC Street Trees</h1>
                     
-                    <p>Using data provided by <a href="https://nycopendata.socrata.com" target="_blank">NYC Open Data</a>, this visualization shows the variety and quantity of street trees in the five boroughs of New York City.</p>
+                    <p>Using data provided by <a href="https://nycopendata.socrata.com" target="_blank">NYC Open Data</a> (<a href="index.php?year=2005">2005</a> | <a href="index.php?year=2015">2015</a>), this visualization shows the variety and quantity of street trees in the five boroughs of New York City.</p>
+
                 </header>
             </div>
 
@@ -55,6 +56,7 @@
                         
                     </ul>
                 </div>
+
 
                 <canvas id="tree_canvas"></canvas>
                 <canvas id="hover_canvas"></canvas>
